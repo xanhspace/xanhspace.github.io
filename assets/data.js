@@ -21,14 +21,14 @@ window.XS_DEFAULT = {
   ],
   services: [
     { icon: "✎", title: "Thiết kế & Thi công cảnh quan", desc: "Từ ý tưởng, phối cảnh 3D, bản vẽ đến thi công thực tế – phù hợp không gian, phong cách và ngân sách của bạn." },
-    { icon: "❀", title: "Cung cấp cây văn phòng", desc: "Cây xanh trang trí, cho thuê và cung cấp cây cho văn phòng, cửa hàng." },
+    { icon: "❀", title: "Cung cấp cây văn phòng", desc: "Cung cấp cây xanh trang trí cho văn phòng, cửa hàng." },
     { icon: "✓", title: "Bảo dưỡng cảnh quan", desc: "Chăm sóc định kỳ, giữ không gian xanh luôn tươi đẹp." },
-    { icon: "≈", title: "Lắp đặt hệ thống chiếu sáng & tưới tự động", desc: "Hệ thống đèn chiếu sáng và tưới tự động tiết kiệm nước, chăm sóc cây xanh gọn nhẹ." }
+    { icon: "≈", title: "Lắp đặt hệ thống chiếu sáng & tưới tự động", desc: "Hệ thống đèn chiếu sáng và tưới tự động giúp tiết kiệm được thời gian chăm sóc và giúp cho cây vẫn luôn đẹp ngay cả buổi tối." }
   ],
   process: [
-    { title: "Khảo sát & tư vấn", desc: "Gặp gia chủ, đo đạc hiện trạng.", time: "Ngày 1–2" },
-    { title: "Thiết kế concept 3D", desc: "Phối cảnh, chỉnh sửa tới khi hài lòng.", time: "Ngày 3–10" },
-    { title: "Ký hợp đồng & thi công", desc: "Báo cáo tiến độ hàng tuần.", time: "Tuần 2–8" },
+    { title: "Khảo sát & tư vấn phương án", desc: "Đến trực tiếp công trình, đo đạc hiện trạng & tư vấn phương  án triển khai.", time: "Hoàn toàn miễn phí" },
+    { title: "Thiết kế concept 3D", desc: "Lên phối cảnh, chỉnh sửa tới khi kkhách hàng hài lòng.", time: "Có tính phí & sẽ trừ trực tiếp vào tổng giá nếu kí hợp đồng" },
+    { title: "Ký hợp đồng & thi công", desc: "Chốt phương án triển khai và thi công.", time: "Nhanh, gọn và tận tâm" },
     { title: "Nghiệm thu & bảo hành", desc: "Bàn giao, hướng dẫn chăm sóc.", time: "Sau hoàn thiện" }
   ],
   /* Dự án MẪU – thay bằng dự án thật trong admin.html */
