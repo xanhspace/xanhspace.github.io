@@ -20,12 +20,10 @@ window.XS_DEFAULT = {
     { v: "Trọn gói", l: "Từ thiết kế đến bảo dưỡng" }
   ],
   services: [
-    { icon: "✎", title: "Thiết kế cảnh quan", desc: "Ý tưởng, phối cảnh 3D và bản vẽ phù hợp không gian, phong cách và ngân sách." },
-    { icon: "⚒", title: "Thi công cảnh quan", desc: "Thi công sân vườn, tiểu cảnh, hồ nước với vật liệu chọn lọc, đúng tiến độ." },
-    { icon: "≈", title: "Hệ thống tưới tự động", desc: "Lắp đặt tưới tự động tiết kiệm nước, chăm sóc cây xanh gọn nhẹ." },
+    { icon: "✎", title: "Thiết kế & Thi công cảnh quan", desc: "Từ ý tưởng, phối cảnh 3D, bản vẽ đến thi công sân vườn, tiểu cảnh, hồ nước – phù hợp không gian, phong cách và ngân sách của bạn." },
     { icon: "❀", title: "Cung cấp cây văn phòng", desc: "Cây xanh trang trí, cho thuê và cung cấp cây cho văn phòng, cửa hàng." },
-    { icon: "▦", title: "Decor ban công", desc: "Biến ban công, sân thượng thành góc thư giãn xanh mát." },
-    { icon: "✓", title: "Bảo dưỡng cảnh quan", desc: "Chăm sóc định kỳ, giữ không gian xanh luôn tươi đẹp." }
+    { icon: "✓", title: "Bảo dưỡng cảnh quan", desc: "Chăm sóc định kỳ, giữ không gian xanh luôn tươi đẹp." },
+    { icon: "≈", title: "Lắp đặt hệ thống chiếu sáng & tưới tự động", desc: "Hệ thống đèn chiếu sáng và tưới tự động tiết kiệm nước, chăm sóc cây xanh gọn nhẹ." }
   ],
   process: [
     { title: "Khảo sát & tư vấn", desc: "Gặp gia chủ, đo đạc hiện trạng.", time: "Ngày 1–2" },
