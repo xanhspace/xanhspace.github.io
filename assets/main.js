@@ -14,7 +14,13 @@
 
   $('[data-render="stats"]').innerHTML = D.stats.map(function (s) { return '<div class="b stat rv"><b>' + esc(s.v) + "</b><span>" + esc(s.l) + "</span></div>"; }).join("");
   $('[data-render="services"]').innerHTML = D.services.map(function (s) { return '<article class="b svc rv"><h3>' + esc(s.title) + "</h3><p>" + esc(s.desc) + "</p></article>"; }).join("");
-  $('[data-render="process"]').innerHTML = D.process.map(function (s, i) { return '<div class="step rv"><div class="n">' + (i + 1) + "</div><h3>" + esc(s.title) + "</h3><p>" + esc(s.desc) + "</p>" + (s.time ? "<small>" + esc(s.time) + "</small>" : "") + "</div>"; }).join("");
+  $('[data-render="process"]').innerHTML = D.process.map(function (s, i) { return '<div class="step rv" tabindex="0" role="button" aria-expanded="false"><div class="n">' + (i + 1) + "</div><h3>" + esc(s.title) + '</h3><span class="plus" aria-hidden="true">+</span><div class="pop"><p>' + esc(s.desc) + "</p>" + (s.time ? "<small>" + esc(s.time) + "</small>" : "") + "</div></div>"; }).join("");
+  // Trên điện thoại / màn hình cảm ứng: chạm để mở, chạm lần nữa để đóng
+  $$(".step").forEach(function (st) {
+    var tg = function () { var o = st.classList.toggle("open"); st.setAttribute("aria-expanded", o); };
+    st.addEventListener("click", tg);
+    st.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); tg(); } });
+  });
 
   var pj = $('[data-render="projects"]'), fl = $('[data-render="filters"]'), tabs = D.projectTabs, cur = tabs[0];
   function draw() {
