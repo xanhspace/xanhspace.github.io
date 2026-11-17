@@ -13,7 +13,7 @@
   $$("[data-link]").forEach(function (a) { a.href = links[a.dataset.link] || "#"; if (/^http/.test(a.href)) { a.target = "_blank"; a.rel = "noopener"; } });
 
   $('[data-render="stats"]').innerHTML = D.stats.map(function (s) { return '<div class="b stat rv"><b>' + esc(s.v) + "</b><span>" + esc(s.l) + "</span></div>"; }).join("");
-  $('[data-render="services"]').innerHTML = D.services.map(function (s) { return '<article class="b svc rv"><div class="ic">' + esc(s.icon) + "</div><div><h3>" + esc(s.title) + "</h3><p>" + esc(s.desc) + "</p></div></article>"; }).join("");
+  $('[data-render="services"]').innerHTML = D.services.map(function (s) { return '<article class="b svc rv"><h3>' + esc(s.title) + "</h3><p>" + esc(s.desc) + "</p></article>"; }).join("");
   $('[data-render="process"]').innerHTML = D.process.map(function (s, i) { return '<div class="step rv"><div class="n">' + (i + 1) + "</div><h3>" + esc(s.title) + "</h3><p>" + esc(s.desc) + "</p>" + (s.time ? "<small>" + esc(s.time) + "</small>" : "") + "</div>"; }).join("");
 
   var pj = $('[data-render="projects"]'), fl = $('[data-render="filters"]'), tabs = D.projectTabs, cur = tabs[0];

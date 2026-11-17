@@ -3,7 +3,7 @@ window.XS_DEFAULT = {
   company: {
     name: "Xanh Space",
     slogan: "Mang không gian xanh tới gần bạn hơn",
-    founded: "2025",
+    founded: "2024",
     hotline: "0845.567.601",
     zalo1: "0914.289.601",
     zalo2: "0862.115.729",
@@ -14,10 +14,10 @@ window.XS_DEFAULT = {
     about: "Xanh Space là đơn vị thiết kế và thi công cảnh quan, mang cây xanh và không gian thiên nhiên đến gần hơn với ngôi nhà, văn phòng và công trình của bạn – từ ý tưởng, thi công đến bảo dưỡng lâu dài."
   },
   stats: [
-    { v: "2025", l: "Năm thành lập" },
-    { v: "6", l: "Nhóm dịch vụ" },
+    { v: "2024", l: "Năm thành lập" },
+    { v: "45+", l: "Công trình" },
     { v: "TP.HCM", l: "& các tỉnh thành khác" },
-    { v: "Trọn gói", l: "Từ thiết kế đến bảo dưỡng" }
+    { v: "Trọn gói", l: "Từ thiết kế, thi công đến bảo dưỡng" }
   ],
   services: [
     { icon: "✎", title: "Thiết kế & Thi công cảnh quan", desc: "Từ ý tưởng, phối cảnh 3D, bản vẽ đến thi công sân vườn, tiểu cảnh, hồ nước – phù hợp không gian, phong cách và ngân sách của bạn." },
